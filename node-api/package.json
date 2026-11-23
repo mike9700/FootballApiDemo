@@ -1,0 +1,14 @@
+{
+    "name": "node-api",
+    "version": "1.0.0",
+    "description": "NFL standings API",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch app.js"
+    },
+    "dependencies": {
+        "dotenv": "^18.0.10",
+        "express": "^5.1.0"
+    }
+}
